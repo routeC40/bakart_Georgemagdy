@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.clear-fix{
+    clear: both;
+}
+
+.home {
+    background-image: url(images/drew-coffman-1872.jpg);
+    text-align: center;
+    height: 100vh;
+    background-size: 100% 100%;
+
+}
+
+.home p {
+    color: rgba(255, 255, 255, 0.703);
+    padding: 25px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.home h1 {
+    color: white;
+    padding: 10px;
+    font-size: 70px;
+
+}
+
+.btn {
+color: white;
+border-radius: 5px;
+padding: 15px 20px;
+font-size: 16px;
+margin-right: 7px;
+}
+.btn1{
+    border: none;
+    background-color: #8e7754;
+}
+.btn2{
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.navbar img{
+    width: 150px;
+    float: left;
+    padding-top: 10px;
+
+}
+
+.navbar ul{
+    float: right;
+    list-style: none;
+    padding-top: 10px;
+}
+
+.navbar li{
+    color: white;
+    float: left;
+    margin: 20px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.about{
+    margin: 60px 0px;
+}
+
+.about h2, .about p{
+    text-align: center;
+   line-height: 30px;
+   padding: 15px 30px ;
+}
+.about h2{
+    margin-top: 30px;
+}
+.about p{
+    font-size: 18px;
+    color: #686868;
+}
+.about img{
+    width: 45%;
+    float: left;
+
+}
+.about .info{
+    float: left; 
+    width: 50%;
+    margin-left: 30px;
+    
+}
+
+.about .info ul{
+    list-style: none;
+    padding: 10px;
+    color: #686868;
+    font-size: 18px;
+}
+.about .info li{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.about .info .flist{
+    border: 0.5px solid #8e7754;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.location{
+    background-color: #f8f8f8;
+}
+.location .image{
+    display: inline-block;
+    width: 40%;
+}
+
+.location .content2{
+    text-align: center;
+   display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    padding-top: 100px;
+    /* transform: translate(10px, -200px); */
+    
+}
+.location h2{
+    line-height: 30px;
+   padding: 15px 30px ;
+   margin-left: 50px;
+}
+.location p{
+    font-size: 18px;
+    color: #686868;
+    line-height: 30px;
+   padding: 15px 30px ;
+   margin-left: 50px;
+}
+.location .image img{
+    width: 100%;
+    margin: 50px;
+
+}
+.gallery{
+    margin-bottom: 50px;
+}
+.gallery .title{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.gallery .title h2{
+    padding-bottom: 40px;
+}
+.gallery p{
+    font-size: 17.5px;
+    color: #686868;
+    line-height: 30px;
+}
+.gallery .baking{
+    width: 28%;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+
+}
+.gallery .baking img{
+    width: 100%;
+}
+.gallery .baking h3{
+    padding: 20px;
+    font-size: 16px;
+}
+.blog{
+    background-color: #f8f8f8;
+    padding-bottom: 20px;
+}
+.blog .content3{
+    float: left;
+    width: 45%;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+.blog h2{
+    margin-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.blog p{
+    font-size: 17.5px;
+    color: #686868;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.blog .map{
+    float: left;
+    width: 40%;
+    margin-top: 60px;
+}
+.blog .map img{
+    width: 100%;
+
+}
+.blog .content3 ul{
+    list-style: none;
+    padding: 10px;
+    color: #686868;
+    font-size: 18px;
+}
+.blog .content3 li{
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.blog .content3 .slist{
+    border: 0.5px solid #8e7754;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    background-color:#8e7754 ;
+    color: white;
+}
+.contacts{
+    background-color: #403d38;
+    padding: 30px 70px;
+}
+
+.contacts .l1{
+    float: left;
+    width: 24%;
+    background-color: #403d38;
+    padding-left: 10px;
+}
+.contacts .l1 h3{
+    color: white;
+    margin-bottom: 20px;
+
+}
+.contacts .l1 ul,.contacts .l1 p{
+    color: #969696;
+    list-style: none;
+    background-color: #403d38;
+    font-size: 23px;
+    line-height: 30px;
+}
+.contacts .l1 p{
+    margin-bottom: 30px;
+}
+.contacts .l1 li{
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-bottom: 1px solid #303030;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.footer{
+    background-color: #353330;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.footer img{
+    margin-top: 40px;
+    width: 300px;
+}
+.footer p{
+    color: #969696;
+    padding: 30px;
+}
+.footer .tlist{
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 15px;
+    background-color:#484540 ;
+    color: #8c8a86;
+}
+
+.footer li{
+    list-style: none;
+    display: inline;
+    margin-right: 5px;
+}
